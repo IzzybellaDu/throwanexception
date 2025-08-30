@@ -33,12 +33,16 @@ GovConnect is a platform designed to bridge the gap between government and commu
     - Allow other users to "upvote" these suggestions, helping to surface popular ideas.
 
 ## To run
-1. Make sure you have python (v3.12) and npm (v22) installed
+1. Make sure you have python (>v3.12) and npm (>v22) installed
 2. Activate the virtual environment and navigate to the correct directory
 ```
 cd react-with-flask
 cd api
 source venv/bin/activate
+```
+3. Install python dependencies
+```
+pip install -r requirements.txt
 cd ..
 ```
 3. Run the backend
